@@ -1,0 +1,196 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+}
+/* 기본 CSS */
+body {
+	max-width:1914px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    background-color:#f0f0f0;
+    color: #333;
+}
+.header_banner{
+	width:100%;
+	background-color:#fff;
+}
+#container {
+	width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding:60px 0 120px;
+    background-color:#f0f0f0;
+}
+.customer_snb {
+    width: 230px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px 24px;
+    margin-right: 16px;
+}
+.customer_snb li {
+    font-size: 16px;
+    padding: 13px 0;
+}
+.customer_snb h2 {
+    margin: 20px auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+/*우측 2단 박스*/
+.customer_list_board {
+    width: 1194px;
+    height:auto;
+    background-color: #fff;
+    margin: 0 auto 20px;
+    padding-bottom:50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* 우측 상단 박스 */
+.customer_upper_box {
+    width: 1194px;
+    height: 137px;
+    background-color: #fff;
+    margin: 0 auto 8px;
+    text-align: center;
+}
+.customer_upper_box button{
+    width:328px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #000;
+    color:#fff;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.customer_upper_box img {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    margin-top: 16px;
+}
+.customer_select_box {
+    width: 328px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.customer_select_box p{
+    width: 134px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.customer_select_box select {
+    height: 15px;
+    line-height: 15px;
+    border: none;
+}
+
+
+/* 
+	우측 하단 박스 
+	문의내역 리스트 영역	
+*/
+.customer_ask {
+	margin-top:15px;
+}
+.customer_ask p:first-child{
+    width: 45px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    padding: 2px 4px;
+    color: #fff;
+    background-color: #c8c8c8;
+}
+
+.customer_ask .ans_box{
+    width: 328px;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 6px auto 10px;
+}
+
+.customer_ask img {
+    width: 18px;
+}
+.customer_ask span {
+    font-weight: bold;
+}
+.customer_ask .date {
+	font-size:0.8rem;
+	margin-bottom:10px;
+	padding-bottom: 5px;
+	border-bottom:1px solid #f0f0f0;
+}
+/* 문의내용 Contents*/
+.customer_ask2 {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.customer_ask2 p {
+    padding: 10px 0 20px 10px;
+    background-color: #f0f0f0;
+}
+.customer_ask2 input {
+    width: 27px;
+    font-size: 10px;
+    text-align: right;
+    background-color: #f0f0f0;
+    margin: 10px 0 5px;
+    border-right: 1px solid;
+    padding-right: 7px;
+}
+.customer_input {
+    width: 300px;
+    text-align: right;
+}
+.customer_input .last_btn {
+    border-right: none;
+    padding-right: 7px;
+}
+
+/* 페이지 번호 */
+
+.pageNum {
+	text-align:center;
+	/* 포지션 설정 */
+	position: relative;
+	top: -40px;
+	font-size: 1.2rem;
+}
+
+/* 풋터 좌우 여백*/
+.footer_top, .footer_bottom{
+	width:1440px;
+	margin: 0 auto;
+}
+.footer {
+	width: 100%;
+    margin: 0 auto;
+}
+.footer_tel {
+    background-color: #fff;
+    max-width:1914px;
+	width: 100%;
+    margin: 0 auto;
+}
+.footer_info {
+    background-color: #f8f8f8;
+    max-width:1914px;
+	width: 100%;
+    margin: 0 auto;
+}
+

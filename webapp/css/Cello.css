@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Cello';
+    src: url('../font/RegularBoldCelloGX.ttf') format('truetype');
+}
+.user_font {
+    font-family: 'Cello', sans-serif;
+}

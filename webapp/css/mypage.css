@@ -1,0 +1,397 @@
+@charset "UTF-8";
+body::-webkit-scrollbar-track {
+       background-color: white;   
+}
+body.overflow-hidden {
+    overflow: hidden;
+    padding-right: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pc-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1416px;
+    padding: 0 12px;
+}
+
+
+
+.gradeicon {
+    width: 20%;
+}
+.mypage-dashboard {
+    width: 100%;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    align-items: center;
+  }
+  .mypage-dashboard__info {
+    padding: 40px 32px 40px 40px;
+    background-color: #fff;
+  }
+  .mypage-dashboard__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mypage-dashboard__row .info-grade {
+    position: relative;
+    display: inline-block;
+    max-width: 538px;
+  }
+  .mypage-dashboard__row .info-grade .level {
+    display: flex;
+  }
+  .mypage-dashboard__row .info-grade .level .lv {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;
+    text-indent: -99999em;
+  }
+  .mypage-dashboard__row .info-grade .level .user {
+    display: inline-block;
+    margin-left: 12px;
+  }
+  .mypage-dashboard__row .info-grade .level .name {
+    display: inline-block;
+    max-width: 440px;
+  }
+  .mypage-dashboard__row .info-grade .level .name strong {
+    margin-right: 8px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    word-break: break-all;
+  }
+  .mypage-dashboard__row .info-grade .level .btn-arrow {
+    display: inline-block;
+    padding-right: 16px;
+    color: #404040;
+    font-size: 14px;
+    line-height: 24px;
+    background: url("../../image/ico_arrow_gray_border_right.svg") no-repeat center right/14px;
+  }
+  .mypage-dashboard__row .info-grade .mem:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .mypage-dashboard__row .info-grade .mem .grade {
+    float: left;
+    display: block;
+    max-width: 270px;
+    margin-bottom: 10px;
+    color: #131922;
+    font-family: RegularBoldCello;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    word-break: break-all;
+  }
+  .mypage-dashboard__row .info-grade .mem a.btn-wide {
+    float: left;
+    width: auto;
+    height: 32px;
+    margin-left: 12px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+  }
+  .mypage-dashboard__row .info-grade .mem span.bt {
+    height: 28px;
+    padding-top: 8px;
+  }
+  .mypage-dashboard__row .info-point {
+    display: flex;
+  }
+  .mypage-dashboard__row .info-point li {
+    width: 160px;
+    padding: 0 16px;
+    border-right: 1px solid #f0f0f0;
+  }
+  .mypage-dashboard__row .info-point li:nth-last-of-type(1) {
+    border-right: 0;
+  }
+  .mypage-dashboard__row .info-point span,
+  .mypage-dashboard__row .info-point em {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .mypage-dashboard__row .info-point .tit {
+    margin-bottom: 17px;
+    color: #404040;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mypage-dashboard__row .info-point .won {
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .mypage-dashboard__row .info-point .won a {
+    display: inline-block;
+    padding-right: 4px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+.shop_step {
+    margin-top: 48px;
+    padding-bottom: 40px;
+}
+.shop_step_imgbox {
+    margin-top: 16px;
+    padding: 32px 45px;
+    background-color: #f8f8f8;
+}
+.show_step_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.show_step_list_icon:nth-child(odd) {
+    width: 140px;
+}
+.show_step_list_num {
+    text-align: center;
+}
+
+/* 주문배송조회 */
+.mypage_search_content {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    width: 1192px;
+    min-height: 1467px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.search > span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.search_btn {
+  display: flex;
+  border-left: solid 1px #e0e0e0;
+}
+.search_btn input:checked + label {
+  border: 1px solid #000;
+}
+.search_btn label {
+  padding: 11px 20px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #e0e0e0;
+  border-left: none;
+  background-color: #fff;
+}
+
+
+/* 제일 하단 */
+.mypage-shopping__step-wrap {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    background: url("../images/icon/mypage_shopping_step_line.svg") no-repeat center center/1124px;
+}
+.mypage-shopping__step-item-2 {
+    padding: 32px 30px;
+    box-sizing: border-box;
+}
+.mypage-shopping__step-item-2:nth-child(2), .mypage-shopping__step-item-2:nth-child(5), .mypage-shopping__step-item-2:nth-child(8) {
+    width: 384px;
+}
+.mypage-shopping__step-item-2:nth-child(1), .mypage-shopping__step-item-2:nth-child(3), .mypage-shopping__step-item-2:nth-child(4), .mypage-shopping__step-item-2:nth-child(6), .mypage-shopping__step-item-2:nth-child(7) {
+    width: 363px;
+}
+.mypage-shopping__step-step {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #a0a0a0;
+    font-weight: bold;
+}
+.mypage-shopping__step-title-2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.mypage-shopping__step-description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+}
+.mypage-shopping__step-description span {
+    text-decoration: underline;
+}
+.mypage-shopping__step-description a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    text-decoration: underline;
+}
+.mypage-shopping__notice .siv-bullet {
+    margin-top: 40px;
+    padding: 0 20px 48px;
+}
+.mypage-shopping__notice .siv-bullet-sub {
+    position: relative;
+    margin-top: 8px;
+}
+.mypage-shopping__notice .siv-bullet-sub p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #787878;
+    padding-left: 10px;
+}
+.mypage-shopping__notice .siv-bullet-sub p::after {
+    content: "-";
+    position: absolute;
+    left: 0;
+    transform: translateY(-23px);
+    display: block;
+}
+/* 제일 하단 */
+
+
+
+.page_title {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #000;
+}
+.page_title.border-none {
+  border-bottom: none;
+}
+
+.section_title {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  font-weight: bold;
+  color: #000;
+  padding: 0 20px 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.section_title.padding-0 {
+  padding-bottom: 0;
+}
+.section_title.border-none {
+  border-bottom: none;
+}
+
+
+
+
+
+/* 캘린더 */
+.calander .form_input {
+    width: 170px;
+}
+.calander .form_input input:-moz-read-only {
+    font-size: 16px;
+}
+.calander .form_input input:read-only {
+    font-size: 16px;
+}
+.calander > span {
+    font-size: 16px;
+}
+.calander > .btn-wide {
+    height: 48px;
+}
+/* 캘린더 */
+
+.mypage-shopping__container {
+    width: 208px;
+    padding: 23px 24px 22px;
+    margin-right: 16px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    box-sizing: border-box;
+    align-self: baseline;
+}
+.mypage-lnb__title {
+    height: 32px;
+    padding: 19px 0 18px;
+    margin: 0 0 1px;
+    color: #131922;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.mypage-lnb__set .menu {
+    padding-bottom: 23px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 23px;
+}
+.mypage-lnb__set .menu .menu-title {
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+.mypage-lnb__set .menu ul li a {
+    display: block;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #787878;
+    line-height: 36px;
+}
+.mypage-lnb__set .menu ul li.on a {
+    color: #000;
+}
+.mypage-lnb__set .shinsegae p {
+    margin-bottom: 90px;
+}
+.mypage-lnb__set .shinsegae p a {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    word-break: keep-all;
+}
+.mypage-shopping__term-left {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.mypage-shopping__term-left > span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.mypage-shopping__term-tab {
+    display: flex;
+    border-left: solid 1px #e0e0e0;
+}
+.mypage-shopping__term-tab input:checked + label {
+    border: 1px solid #000;
+}

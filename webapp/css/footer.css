@@ -1,0 +1,100 @@
+@charset "utf-8";
+#wrap {
+    width: 100%;
+    background-color: #f8f8f8;
+    
+    margin: 0 auto;
+ }
+ .footer .footer_top {
+     padding: 0 15px;
+     height: 60px;
+     line-height: 60px;
+     /* 플렉스 */
+     display: flex;
+     font-family: row nowrap;
+     justify-content: space-between;
+     background-color:#fff ;
+ }
+ .footer .footer_top .tel {
+    width: 300px;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+ }
+ .footer .footer_top .tel li:first-child {
+    font-size: 23px;
+    font-weight: bold;
+ }
+ .footer .footer_top .tel li:last-child {
+    font-size: 14px;
+    color: #929292;
+ }
+ .footer .footer_top .notice {
+    width: 900px;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: flex-start;
+ }
+ .footer .footer_top .notice li {
+    padding-left: 30px;
+ }
+ .footer .footer_top .sns {
+     width: 100px;
+     /* 플렉스 */
+     display: flex;
+     font-family: row nowrap;
+     justify-content: space-between;
+ }
+ .footer .footer_top .sns li a img {
+     height: 32px;
+ }
+
+
+ /* footer_bottom */
+ .footer .footer_bottom {
+     padding-left: 15px;
+     background-color: #f8f8f8;
+ }
+ .footer .footer_bottom nav ul {
+     width: 600px;
+     height: 90px;
+     line-height: 90px;
+     font-size: 17px;
+     /* 플렉스 */
+     display: flex;
+     font-family: row nowrap;
+     justify-content: space-between;
+ }
+ .footer .footer_bottom .info li {
+     color: #929292;
+     font-size: 14px;
+     height: 30px;
+     line-height: 30px;
+     /* 플렉스 */
+     display: flex;
+     font-family: row nowrap;
+     justify-content: space-between;
+ }
+ .footer .footer_bottom .info li:first-child {
+     width: 800px;
+ }
+ .footer .footer_bottom .info li:nth-child(2) {
+     width: 1050px;
+ }
+ .footer .footer_bottom .info li:nth-child(3) {
+     width: 350px;
+ }
+ .footer .footer_bottom .info li:nth-child(4) {
+     height: 50px;
+     line-height: 50px;
+ }
+ .footer .footer_bottom .info li:nth-child(5) {
+     width: 360px;
+     line-height: 1.4;
+     padding: 10px 0 100px 0;
+ }
+ .footer .footer_bottom .info li:nth-child(5) img {
+     height: 40px;
+ }

@@ -1,0 +1,381 @@
+@charset "utf-8";
+body::-webkit-scrollbar {
+    width:6px;
+    background-color: #000000;
+}
+
+
+#wrap {
+    position: relative;
+    margin:0 auto;
+
+}
+main {
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin:0 auto;
+    width:1914px;
+    padding-top: 60px;
+    background-color: #f0f0f0;
+    padding-bottom:80px;
+   
+}
+
+/* SNB */
+#SNB {
+    width: 258px;
+    border: 1px solid #e9e9e9;
+    background-color: #ffffff;
+    float:left;
+    margin-right: 16px;
+    margin-left: 223px;
+    padding: 44px 24px 24px 24px;
+}
+
+#SNB p {
+    width:208px;
+   height:41px;
+   font-size: 28px;
+    font-weight: bold;
+    color:#141a23;
+    padding:10px 0px;
+    letter-spacing: -2px;
+}
+
+#SNB ul li {
+    font-size: 16px;
+    margin-bottom: 28px;
+    color:#141a23;
+    letter-spacing: -1px;
+}
+#SNB ul li:nth-child(1) {
+    margin-top: 32px;  
+}
+#SNB ul li:last-child{
+    margin-bottom: 14px;
+}
+/* //SNB */
+
+/* Contents */
+#content_contactus {
+    width: 1192px;
+    border: 1px solid #e9e9e9;
+    background-color: #ffffff;
+    float:left;
+    margin-right: 223px;
+    text-align: center;
+    padding:20px 0 80px 0;
+}
+#content_contactus form {
+    width:375px;
+    padding:0 24px 0 24px;
+    margin:0 auto;
+}
+#content_contactus form h2 {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+#content_contactus form .option1 {
+    padding: 13px 16px;
+    width: 157.5px;
+    height: 48px;
+    border: 1px solid #e9e9e9;
+    float:left;
+    margin-right: 8px;
+    
+}
+#content_contactus form .option2 {
+    padding: 13px 16px;
+    width: 157.5px;
+    height: 48px;
+    border: 1px solid #e9e9e9;
+    float:left;
+}
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7,
+.a8 {
+    display: none;
+}
+
+#content_contactus form .asklist {
+    margin-bottom: 16px;
+}
+/* //asklist */
+/* askinfo */
+#content_contactus form .product_choice {
+    width:327px;
+    height: 48px;
+    color:white;
+    background-color: #787878;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+#content_contactus form input {
+    padding: 13px 16px;
+    border: 1px solid #e9e9e9;
+}
+#content_contactus form input:nth-child(2) {
+    margin-bottom: 8px;
+}
+#content_contactus form textarea {
+    padding: 13px 16px;
+    border: 1px solid #e9e9e9;
+    margin-bottom: 16px;
+}
+
+#content_contactus form .fileupload {
+    background-color: #fff;
+    border: 1px dotted #333333;
+    width:62px;
+    height:62px;
+    position: relative;
+    margin-bottom: 16px;
+}
+#content_contactus form .fileupload span:nth-child(1){
+    display: block;
+    height:2px;
+    width:20px;
+    background-color: #929292;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%);
+}
+#content_contactus form .fileupload span:nth-child(2) {
+    display: block;
+    height:2px;
+    width:20px;
+    background-color: #929292;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) rotate(90deg); 
+}
+
+#content_contactus form .warning_text {
+    padding:0 24px;
+    letter-spacing: -1.2px;
+}
+#content_contactus form .warning_text ul li {
+    list-style: disc;
+    font-size: 12px;
+    color:red;
+    text-align: left;
+    line-height: 18px;
+    color:#787878;
+    margin-top: 8px;
+    
+}
+#content_contactus form .warning_text ul li:nth-child(2){
+    color:#333333;
+}
+#content_contactus form .warning_text ul li:nth-child(3){
+    margin-bottom: 18px;
+}
+
+.askinfo {
+    margin-bottom: 18px;
+    border-bottom: 1px solid #e9e9e9;
+}
+/* //askinfo */
+
+/* userinfo */
+#content_contactus .userinfo input {
+    margin-bottom: 8px;
+}
+
+#content_contactus .userinfo input:nth-child(3){
+    margin-bottom: 24px;
+}
+
+#content_contactus .userinfo .phone_num .first_tel{
+    width:95px;
+    height: 48px;
+    padding:13px 16px;
+    margin-right: 8px;
+    float:left;
+}
+#content_contactus .userinfo .phone_num input {
+    width: 224px;
+    height: 48px;    
+    float:left;
+}
+
+#content_contactus .userinfo .phone_num {
+    margin-bottom: 20px;
+}
+/* //userinfo */
+
+/* checklist */
+
+#content_contactus .checklist article {
+    width:100%;
+    
+}
+#content_contactus .checklist article div {
+    width:50%;
+    height:44px;
+    font-size: 14px;
+}
+#content_contactus .checklist .checkbox div{
+    float: left;
+}
+#content_contactus .checklist input {
+   border:none;
+   color:white;
+   background:#c8c8c8;
+}
+#content_contactus .checklist p {
+    line-height: 20px;
+    font-size: 12px;
+    float:left;
+    padding: 0;
+    margin:0;
+
+}
+#content_contactus .checklist p:nth-child(1){
+    color:#c8c8c8;    
+}
+#content_contactus .checklist p:nth-child(2){
+    color:#404040;
+}
+#content_contactus .checklist input {
+    padding: 0;
+    margin: 0;
+    float: left;;
+    width: 24px;
+    height:24px;
+    margin-right: 8px;
+}
+#content_contactus .checklist h2 {
+    clear:both;
+    margin-top: 24px;
+    font-size: 16px;
+}
+#content_contactus .checklist h2+p {
+    float:none;
+    font-size: 14px;
+    color: #404040;
+    text-align: left;
+    letter-spacing: -1px;
+}
+
+#content_contactus .checklist .checkbox div:nth-child(1) input {
+   
+}
+#content_contactus .checklist .checkbox div:nth-child(1) p{
+   color:#c8c8c8;
+}
+#content_contactus .checklist .checkbox div:nth-child(2){
+   
+}
+
+
+#content_contactus .checklist .graybox {
+    background-color: #f8f8f8;
+    padding: 16px 14px;;
+    margin-bottom: 20px;
+}
+
+#content_contactus .checklist .graybox ul li{
+    color:#787878;
+    font-size: 12px;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+    list-style: inside;
+    text-align: left;
+}
+#content_contactus .checklist .graybox ul li:nth-child(3) {
+    width:0;
+    float:left;
+}
+#content_contactus .checklist .graybox ul li:last-child {
+    padding-left: 14px;
+    font-size: 15px;
+    color: #404040;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    float: left;
+    list-style: none;
+}
+
+/* //checklist */
+/* lastcheck */
+
+.lastcheck {
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.lastcheck .agreebox {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    float:left;
+    
+}
+.lastcheck p {
+    float:left;
+}
+.lastcheck+ul li{
+    color: #404040;
+    font-size: 14px;
+    list-style: inside;
+    text-align: left;
+}
+/* //lastcheck */
+.reset {
+    width:157.5px;
+    height:48px;
+    color:333333;
+    background-color: #fff;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.submit{
+    width:157.5px;
+    height:48px;
+    color:#fff;
+    background-color: #141A23;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+	
+	
+header_banner{
+   width:100%;
+   background-color:#fff;
+}
+/* 풋터 좌우 여백*/
+.footer_top, .footer_bottom{
+   width:1440px;
+   margin: 0 auto;
+}
+.footer {
+   width: 100%;
+    margin: 0 auto;
+}
+.footer_tel {
+    background-color: #fff;
+    max-width:1914px;
+   width: 100%;
+    margin: 0 auto;
+}
+.footer_info {
+    background-color: #f8f8f8;
+    max-width:1914px;
+   width: 100%;
+    margin: 0 auto;
+}

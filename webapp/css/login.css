@@ -1,0 +1,156 @@
+.login__wrap {
+    padding: 28px 24px 112px;
+}
+
+.login__form {
+    width: 357px;
+    height: 592px;
+
+    margin: 0 auto;
+}
+
+.loginForm {
+    padding-top: 30px;
+    width: 327px;
+    height: 103px;
+    margin: 0 auto;
+
+
+}
+
+.loginForm .login__form-input input {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 7px;
+}
+
+label input {
+    width: 23px;
+    height: 23px;
+    text-align: right;
+}
+
+.login__form-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+
+.login__form-wrap label {
+    position: relative;
+    display: flex;
+}
+
+.login__form span {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Apple SD Gothic Neo", "Apple-Gothic", "Roboto", "Noto Sans KR", "Droid Sans", "dotum", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.login__form-wrap a {
+    color: #787878;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.singup_wrap {
+    text-align: center;
+}
+
+.singup_wrap a {
+    color: #787878;
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+input[type=checkbox]~.checkbox-text {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.checkbox__label {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+/* 버튼 */
+.btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    box-sizing: border-box;
+    background: #ffff;
+    border: 0.5px solid;
+    margin-bottom: 18px;
+}
+
+.btn-vlack {
+    color: #fff;
+    background: #131922;
+    font-size: 14px;
+}
+
+.login_sns img {
+    width: 48px;
+    height: 48px;
+}
+
+.login__form-sns {
+    margin-top: 32px;
+    text-align: center;
+    display: fo;
+}
+
+.login__form-sns li {
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    padding: 0 16px;
+}
+
+.login__form-sns li a {
+    display: block;
+    text-align: center;
+}
+
+.login__form-sns li a .sns-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.login__form-sns li {
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    padding: 0 16px;
+}
+
+.login_sns {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.login_sns li {
+    padding: 15px;
+}

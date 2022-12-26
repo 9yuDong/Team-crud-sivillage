@@ -1,0 +1,125 @@
+@charset "utf-8";
+.img {
+    width: 100%;
+    max-width: 1920px;
+    height: 90px;
+    object-fit: cover;
+}
+#wrap {
+    width: 100%;
+    min-width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header_top {
+    height: 88px;
+    border-bottom: 1px solid #ccc;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+}
+.header_top .search {
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+}
+.header_top .search input {
+    width: 380px;
+    height: 44px;
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+}
+.header_top .search a img {
+    border-bottom: 1px solid #000;
+    margin-top: 34px;
+}
+.header_top .icon {
+    margin-right: 15px;
+    margin-top: 24px;
+}
+.header_top .icon ul {
+    width: 320px;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+}
+.header_top .icon ul li {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* header_bottom */
+.header_bottom {
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+}
+.header_bottom .left nav .ul_first {
+    padding-left: 15px;
+    width: 700px;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+}
+.header_bottom .left nav .ul_first li img{
+    margin-top: 10px;
+}
+
+.header_bottom .left nav .ul_first li {
+    /* 색상 */
+    color: #929292;
+    /* 포지션위치기준 */
+    position: relative;
+    cursor: pointer;
+}
+
+.ul_first span {
+    color: #929292;
+}
+
+/* ul_second */
+.header_bottom .left nav .ul_second {
+    width: 200px;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: white;
+    /* 포지션 */
+    position: absolute;
+    left: -20px;
+    z-index: 100;
+    display: none;
+}
+
+
+
+/* header_bottom right */
+.header_bottom .right nav {
+    margin-bottom: 15px;
+}
+
+.header_bottom .right nav ul {
+    width: 400px;
+    padding-right: 15px;
+    color: #929292;
+    /* 플렉스 */
+    display: flex;
+    font-family: row nowrap;
+    justify-content: space-between;
+}
+
+.header_bottom .right nav ul li span {
+    color: black;
+    font-family: "Cello", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+body {
+   max-width:1914px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    background-color:#f0f0f0;
+}
+#wrap {
+   width:1914px;
+   margin:0 auto;
+}
+.header {
+   width:100%;
+   background-color:#fff;
+}
+#container {
+   width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding:60px 0 120px;
+    background-color:#f0f0f0;
+}
+.customer_snb {
+    width: 230px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px 24px;
+    margin-right: 16px;
+}
+.customer_snb li {
+    font-size: 16px;
+    padding: 13px 0;
+}
+.customer_snb h2 {
+    margin: 20px auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+/*우측 2단 박스*/
+.customer_list_board {
+    width: 1194px;
+    height:470px;
+    background-color: #fff;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* 우측 상단 박스 */
+.customer_select_box {
+    width: 328px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.customer_select_box p{
+    width: 134px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.customer_select_box select {
+    height: 15px;
+    line-height: 15px;
+    border: none;
+}
+
+/* 테이블 */
+.customer_inquiry .table tr td {
+   height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.customer_inquiry .table tr td input {
+   height: 30px;
+}
+.customer_inquiry .table tr .title {
+   border-bottom: 1px solid #e0e0e0;
+}
+.customer_inquiry .table tr .btn {
+   height: 20px;
+    line-height: 20px;
+}
+.customer_inquiry .table tr td .btn_color {
+   background: #d99c63;
+}
+.customer_inquiry .table tr td .btn_color2 {
+   background: #a0a0a0;
+}

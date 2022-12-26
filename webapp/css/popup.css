@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.popup_img{
+	max-width:1914px;
+	width:100%;
+}
+.popupclosebox {
+	position:absolute;
+	top:20px;
+	left:95%;
+	width:30px;
+	height:30px;
+	background-color:block;
+	cursor: pointer;
+}
+.popupclosebox span {
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	height:2px;
+	width:24px;
+	background-color: white;
+	opacity:  1;
+}
+.popupclosebox span:nth-child(1) {
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+.popupclosebox span:nth-child(2) {
+	transform: translate(-50%,-50%) rotate(-45deg);
+}

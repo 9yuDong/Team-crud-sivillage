@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* 1. 스와이퍼 페이지 영역 */
+
+
+/* A. 스와이퍼 최상위 구조 클래스 */
+#portfolio {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#portfolio .swiper-container {
+
+    height: 300px;
+
+}
+
+
+/* C-1. 스와이퍼 될 Slider 각각 내용들 */
+#portfolio .swiper-slide {
+    width:1100px;
+    height:614px;
+}
+
+.swiper-slide {
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    outline: none;
+}
+
+/* C-1. 스와이퍼 될 Slider 각각 내용들 */
+.slide1 {
+    background-color: rgba(255, 127, 0, 0.5);
+}
+.slide2 {
+    background-color: rgba(137, 119, 173, 0.5);
+}
+.slide3 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.slide4 {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 270px;
+}
+.slide5 {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 270px;
+}
+.slide6 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* 시작 */
+    padding-bottom: 270px;
+}
+
+
+.slide1 h3 {
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    color:#fff;
+    /* 포지션 */
+    position:absolute;
+    left:20px;
+    top:-32px;
+    z-index: 1;
+}
+.slide1 .btn {
+    margin-top: 440px;
+}
+
+.slide1 .btn button {
+    display: inline-block;
+    width:120px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    letter-spacing: -1px;
+    cursor:pointer;
+    background-color: transparent;
+
+}
+.swiper-wrapper h2 {
+    font-size: 58px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 50px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 100px;
+}

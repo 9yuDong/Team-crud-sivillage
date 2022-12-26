@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* Default System */
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+
+/* System Fonts Apple */
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/* System Fonts */
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local("../fonts/DroidSans.ttf"),
+    local("../fonts/HelveticaNeueDeskInterface-Light.ttf"),
+    local("../fonts/LucidaGrandeUI.ttf"),
+    local("../fonts/Roboto-Light.ttf"),
+    local("../fonts/SegoeUILight.ttf"),
+    local("../fonts/SFNSText-Light.ttf"),
+    local("../fonts/Tahoma.ttf"),
+    local("../fonts/Ubuntu-Light.ttf");
+}
+/* System Fonts 적용 */
+body {
+    font-family: "system";
+}
+

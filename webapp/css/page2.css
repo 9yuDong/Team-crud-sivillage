@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "Regular";
+    src: url(../fonts/RegularBoldCelloGX.woff) format('woff');
+}
+
+#wrap {
+    min-width: 1440px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.w1416 {
+    width: 1416px;
+    margin: 0 auto;
+}
+
+/* 페이지 1 */
+.page1 {
+    height: 696px;
+    margin: 50px auto;
+    width: 100%;
+}
+
+
+/* 페이지 2 */
+.page2img {
+    position: relative;
+}
+
+.page2_gnb h2 {
+    font-size: 28px;
+    height: 72px;
+    line-height: 72px;
+    margin-bottom: 16px;
+    font-family: "Regular";
+    font-weight: 900;
+}
+
+/* gnb */
+.page2_gnb .page2gnb {
+    display: flex;
+    flex-flow: row wrap;
+    height: 48px;
+    line-height: 48px;
+}
+.page2_gnb .page2gnb li {
+    font-size: 16px;
+    margin-right: 16px;
+    color: #929292;
+}
+.page2_gnb .page2gnb a:nth-child(1) li {
+    color: #141a23;
+}
+
+.page2 .page2img {
+    margin-top: 20px;
+}
+.page2 .page2img li img {
+    width: 335.5px;
+    height: 503px;
+}
+.page2 .page2img li {
+    width: 336px;
+    height: 504px;
+    margin-right: 24px;
+    border: 1px solid lightgray;
+    /* 플롯 */
+    float: left;
+}
+.page2 .page2img li:nth-child(4) {
+    margin-right: 0;
+}
+
+/* 베스트 */
+.page2img li:nth-child(1) span {
+    width: 33.45px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 10px;
+    background-color: black;
+    padding: 0 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.page2img li:nth-child(2) span {
+    width: 33.45px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 10px;
+    background-color: black;
+    padding: 0 4px;
+    position: absolute;
+    left: 360px;
+    bottom: 0;
+    z-index: 1;
+}
+.page2img li:nth-child(3) span {
+    width: 33.45px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 10px;
+    background-color: black;
+    padding: 0 4px;
+    position: absolute;
+    left: 720px;
+    bottom: 0;
+    z-index: 1;
+}
+.page2img li:nth-child(4) span {
+    width: 33.45px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 10px;
+    background-color: black;
+    padding: 0 4px;
+    position: absolute;
+    left: 1080px;
+    bottom: 0;
+    z-index: 1;
+}
+/* 베스트 끝 */
+/* 하트 */
+.page2img li:nth-child(1) a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 1;
+}
+
+.page2img li:nth-child(2) a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 370px;
+    top: 20px;
+    z-index: 1;
+}
+.page2img li:nth-child(3) a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 730px;
+    top: 20px;
+    z-index: 1;
+}
+.page2img li:nth-child(4) a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 1090px;
+    top: 20px;
+    z-index: 1;
+}
+/* 하트 끝 */
+
+/* 호버 시 효과 */
+.page2img_hover {
+    width: 336px;
+    height: 72px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0;  
+}
+
+.page2img li:hover .page2img_hover { 
+    opacity: 1;
+}
+
+.page2img_hover h2 {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    height: 20px;
+    line-height: 40px;
+
+}
+.page2 .page2img .page2img_hover img {
+    width: 25px;
+    height: 25px;
+    margin-left: 155.5px;
+    margin-top: 15px;
+}
+
+/* 호버 시 효과 끝 */
+
+.page2 .page2imgtext div {
+    width: 336px;
+    margin-right: 24px;
+    /* 플롯 */
+    float: left;
+    padding: 16px 8px;
+}
+.page2 .page2imgtext div:nth-child(4){
+    margin-right: 0;
+}
+.page2 .page2imgtext div p {
+    font-size: 14px;
+    color: #404040;
+    margin-top: 2px;
+}
+.page2 .page2imgtext div p:nth-child(2) {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.page2 .page2imgtext div li {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #a0a0a0;
+    margin-bottom: 12px;
+}
+.page2 .page2imgtext .page2imgtext_1 li {
+    background-color: #d99c63;
+}
+
+/* 페이지4 */
+.page4 {
+    height: 730px;
+    margin-bottom: 50px;
+    position: relative;
+    margin-top: 100px;
+}
+.page4 .foot_img{
+    display: flex;
+    flex-flow: row wrap;
+}
+.page4 .foot_img img:nth-child(2) {
+    opacity: 0.2;
+}
+.page4 .foot_img:after {
+    content: "";
+    width: 939px;
+    height: 730px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: lightgreen;
+    opacity: 0.5;
+}
+/* 텍스트 */
+.foot_text {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    z-index: 5;
+    width: 700px;
+    padding-left: 100px;
+
+}
+.foot_text h3 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Regular";
+    color: #fff;
+    margin: 50px 0 80px 250px;
+}
+.foot_text ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 22px;
+}
+.foot_text ul li {
+    margin-bottom: 80px;
+    
+}
