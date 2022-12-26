@@ -1,0 +1,11 @@
+<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="9n19agzfga" d="M0 0h18v18H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="4sx44ma19b" fill="#fff">
+            <use xlink:href="#9n19agzfga"/>
+        </mask>
+        <path d="M11.813 3.375 6.186 9l5.625 5.625" stroke="#000" mask="url(#4sx44ma19b)" transform="matrix(-1 0 0 1 18 0)"/>
+    </g>
+</svg>
