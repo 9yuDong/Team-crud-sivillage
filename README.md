@@ -45,7 +45,7 @@ crud 프로젝트입니다.
                 <li>우측 로그인 버튼 구현</li>
                 <li>우측 마이페이지 구현</li>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/main_IMG.png" />
+                    <img src="https://9yudong.github.io/dong/images/main_IMG.png" />
                 </li>
             </ul>
         </li>
@@ -56,14 +56,14 @@ crud 프로젝트입니다.
                 <li>아이디 중복검사</li>
                 <li>프론트 유효성 검사</li>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/singup_IMG.png"/>
+                    <img src="https://9yudong.github.io/dong/images/singup_IMG.png"/>
                 </li>
 		<li>비밀번호 체크</li>
               	<li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/singup_pwX.png"/>
+                    <img src="https://9yudong.github.io/dong/images/singup_pwX.png"/>
                 </li>
               	<li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/singup_pw.png"/>
+                    <img src="https://9yudong.github.io/dong/images/singup_pw.png"/>
                 </li>		
             </ul>
         </li>
@@ -73,18 +73,18 @@ crud 프로젝트입니다.
             <ul>
                 <li>회원가입</li>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/login_IMG.png">
+                    <img src="https://9yudong.github.io/dong/images/login_IMG.png">
                 </li>
             </ul>
 	      <ul>
 	     <strong>아이디 찾기</strong>
                 <li>아이디 찾기</li>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/find_id.PNG">
+                    <img src="https://9yudong.github.io/dong/images/find_id.PNG">
                 </li>
 		<li>아이디 찾기 결과</li>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/find_IMG.png">
+                    <img src="https://9yudong.github.io/dong/images/find_IMG.png">
                 </li>		
 	      </ul>
 	    <strong>비밀번호 찾기</strong>
@@ -94,7 +94,7 @@ crud 프로젝트입니다.
             <strong>MyPage</strong>
             <ul>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/mypage_IMG.png">
+                    <img src="https://9yudong.github.io/dong/images/mypage_IMG.png">
                 </li>		
             </ul>
         </li>
@@ -105,10 +105,10 @@ crud 프로젝트입니다.
                 <li>기본적인 CRUD</li>
                 <li>댓글, 대댓글 CRUD</li>
                 <li>
-                    <img src="https://dhehdxhd1998.github.io/dong/images/addboard_IMG.png">
+                    <img src="https://9yudong.github.io/dong/images/addboard_IMG.png">
                 </li>
                 <li>
-                     <img src="https://dhehdxhd1998.github.io/dong/images/boardlist_IMG.png">
+                     <img src="https://9yudong.github.io/dong/images/boardlist_IMG.png">
                 </li>
             </ul>
         </li>
